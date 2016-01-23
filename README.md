@@ -1,4 +1,4 @@
-# fcc-portfolio
+# One Page Portfolio Website
 >One page portfolio site using Bootstrap for styling that was created from Free Code Camp Curriculum.
 
 
