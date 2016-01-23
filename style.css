@@ -1,0 +1,85 @@
+.navbar-fixed-top {
+    background-color: #5E5A59;
+    border-bottom: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-size: 16px;
+}
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.header.details {
+    background: url('http://www.jenniferbland.com/wp-content/uploads/home-bg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.header {
+    height: 600px;
+    min-height: 420px;
+    position: relative;
+}
+.header:before {
+    background: rgba(89,82,80,.85);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    left: 0;
+}
+.details {
+    top: 50%;
+    position: relative;
+    text-align: center;
+}
+.header-btn {
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.about {
+    background-color: #FFF;
+    padding: 30px 0 60px 0;
+}
+.skills {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+.skills:before {
+    content: "\2605";
+    padding-right: 15px;
+}
+.skills:after {
+    content: "\2605";
+    padding-left: 15px;
+}
+.writing.details {
+    background: url('http://www.jenniferbland.com/wp-content/uploads/Reading-Books.jpg') no-repeat 50% 15%;
+    background-size: cover;
+    width: 100%;
+}
+.writing {
+    height: 700px;
+    min-height: 420px;
+    position: relative;
+}
+.writing:before {
+//background: rgba(89,82,80,.85);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.articleHeader {
+    padding: 30px 0 60px 0;
+    color: #000;
+}
+.articleList {
+    font-style: bold;
+    font-size: 16px;
+}
+.contact {
+    padding: 30px 0 60px 0;
+}
